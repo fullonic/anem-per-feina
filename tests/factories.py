@@ -1,4 +1,4 @@
-import factory
+import factory  # type:ignore
 
 from jobsapp.models import Job, User
 
