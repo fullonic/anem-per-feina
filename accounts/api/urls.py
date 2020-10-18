@@ -1,4 +1,4 @@
-from rest_framework_simplejwt.views import TokenRefreshView
+from rest_framework_simplejwt.views import TokenRefreshView  # type: ignore
 
 from django.urls import path
 

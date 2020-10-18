@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/
 
 import os
 
-from whitenoise import WhiteNoise
+from whitenoise import WhiteNoise  # type: ignore
 
 from django.core.wsgi import get_wsgi_application
 
