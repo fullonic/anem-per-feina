@@ -22,7 +22,3 @@ class JobFactory(factory.django.DjangoModelFactory):
     title = factory.Sequence(lambda n: "Title %d" % n)
     description = factory.Sequence(lambda n: "Description %d" % n)
     type = "1"
-
-
-UserFactory: "factory.django.DjangoModelFactory"
-JobFactory: "factory.django.DjangoModelFactory"
