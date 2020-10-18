@@ -25,6 +25,7 @@ jobs:
       - name: Run typing tests //will not raise
         # continue-on-error: true
         run: |
-          export SECRET_KEY="mypy"
-          export POSTGRES_PASSWORD="mypy"
           mypy $(find . | grep '.py$' | grep -ve './*/migrations')
+        env:
+          SECRET_KEY: mypy
+          POSTGRES_PASSWORD: mypy
