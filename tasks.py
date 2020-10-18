@@ -1,6 +1,6 @@
 import os
 
-from invoke import task  # type: ignore
+from invoke import task
 
 
 @task
